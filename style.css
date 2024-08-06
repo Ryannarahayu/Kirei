@@ -1,0 +1,332 @@
+@import url(https://db.onlinewebfonts.com/c/fedcebff8de2e8471ca351d4726b77e8?family=Chiki+Bubbles);
+@font-face {
+    font-family: "Chiki Bubbles";
+    src: url("https://db.onlinewebfonts.com/t/fedcebff8de2e8471ca351d4726b77e8.eot");
+    src: url("https://db.onlinewebfonts.com/t/fedcebff8de2e8471ca351d4726b77e8.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/fedcebff8de2e8471ca351d4726b77e8.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/fedcebff8de2e8471ca351d4726b77e8.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/fedcebff8de2e8471ca351d4726b77e8.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/fedcebff8de2e8471ca351d4726b77e8.svg#Chiki Bubbles")format("svg");
+}
+
+body.page1 {
+    background-image: url('Background/Hal\ 1.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+body.page2 {
+    background-image: url('Background/Hal\ 2.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+body.page3 {
+    background-image: url('Background/Hal\ 3.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+body.page4 {
+    background-image: url('Background/Hal\ 4.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+body.page5 {
+    background-image: url('Background/Hal\ 5-01.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end; /* Pindahkan navbar ke sebelah kanan */
+    align-items: center;
+    padding: 50px 70px;
+}
+
+.navbar-menu {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-menu li {
+    margin-left: 40px; /* Mengatur jarak antar item menu */
+}
+
+.navbar-menu li a {
+    color: #000000;
+    text-decoration: none;
+    padding: 8px 10px;
+    font-family: "Chiki Bubbles";
+    font-size: larger;
+}
+
+/* Atur gaya dasar tombol */
+.custom-button {
+    background-color: #FF0000; /* Warna latar belakang tombol */
+    border: none; /* Hapus border default */
+    color: white; /* Warna teks */
+    padding: 15px 32px; /* Padding tombol (vertikal horizontal) */
+    text-align: center; /* Pusatkan teks */
+    text-decoration: none; /* Hapus garis bawah teks */
+    display: inline-block; /* Atur tombol sebagai elemen inline-block */
+    font-size: 16px; /* Ukuran font */
+    margin: 4px 2px; /* Margin sekitar tombol */
+    cursor: pointer; /* Ubah cursor saat hover */
+    border-radius: 8px; /* Radius border untuk sudut melengkung */
+    transition: background-color 0.3s; /* Transisi saat hover */
+}
+
+/* Gaya untuk efek hover */
+.custom-button:hover {
+    background-color: #FF6347; /* Warna latar belakang saat hover */
+}
+
+/* button */
+.learn-more {
+    position: absolute;
+    display: inline-block;
+    font-family: sans-serif;
+    top: 81%;
+    left: 109px;
+    padding: 10px 20px;
+    background-color: #d32f2f; /* Red color similar to the image */
+    color: white;
+    text-decoration: none; /* Remove underline from the link */
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: transform 0.3s ease;
+    text-align: center; /* Center the text */
+}
+
+.learn-more::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 2px solid #d32f2f; /* Red border */
+    transform: translate(-10px, 5px);
+    transition: transform 0.3s ease;
+    z-index: -1;
+}
+
+.learn-more:hover::before {
+    transform: translate(0, 0);
+}
+
+.learn-more:active {
+    transform: translate(2px, 2px);
+}
+
+.learn-more:focus {
+    outline: none;
+}
+
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+/* button end */
+
+/* button2 */
+.btn-more {
+    position: absolute;
+    display: inline-block;
+    top: 63%;
+    left: 650px;
+    padding: 10px 20px;
+    background-color: #d32f2f; /* Red color similar to the image */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    text-align: center; /* Center the text */
+}
+
+.btn-more::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 2px solid #d32f2f; /* Red border */
+    transform: translate(-10px, 5px);
+    transition: transform 0.3s ease;
+    z-index: -1;
+}
+
+.btn-more:hover::before {
+    transform: translate(0, 0);
+}
+
+.btn-more:active {
+    transform: translate(2px, 2px);
+}
+
+.btn-more:focus {
+    outline: none;
+}
+
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.btn-more img{
+    width: 70px;
+}
+/* button end */
+
+/* button3 */
+.btn2-more {
+    position: absolute;
+    display: inline-block;
+    top: 63%;
+    left: 860px;
+    padding: 10px 20px;
+    background-color: #d32f2f; /* Red color similar to the image */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    text-align: center; /* Center the text */
+}
+
+.btn2-more::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 2px solid #d32f2f; /* Red border */
+    transform: translate(-10px, 5px);
+    transition: transform 0.3s ease;
+    z-index: -1;
+}
+
+.btn2-more:hover::before {
+    transform: translate(0, 0);
+}
+
+.btn2-more:active {
+    transform: translate(2px, 2px);
+}
+
+.btn2-more:focus {
+    outline: none;
+}
+
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.btn2-more img{
+    width: 50px;
+}
+/* button end */
+
+/* karosel */
+.container {
+    position: absolute;
+    top: 180px;
+    left: 195px;
+    display: flex;
+    gap: 348px; /* Tambahkan gap antara setiap karusel */
+}
+
+.karusel {
+    position: relative;
+    width: 260px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.karusel-item {
+    text-align: center;
+    padding: 20px;
+    display: none; /* Awalnya sembunyikan semua item */
+}
+
+.karusel-item.active {
+    display: block; /* Tampilkan item aktif */
+}
+
+
+.karusel-deskripsi {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.karusel img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.karusel-button {
+    position: absolute;
+    top: 35%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.tombol-prev {
+    left: 10px;
+}
+
+.tombol-next {
+    right: 10px;
+}
+/* karosel end */
+
+/* footer */
+.footer img{
+    width: 70px;
+    position: absolute;
+    top: 96%;
+    left: 530px;
+}
+.footer2 img{
+    width: 58px;
+    position: absolute;
+    top: 97%;
+    left: 650px;
+}
+
+/* footer end */
+
+
+
+/* Media Queries */
+
